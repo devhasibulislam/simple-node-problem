@@ -11,5 +11,13 @@ const data = require("fs").readFileSync(__dirname + "/data/numbers.txt", {
 });
 
 const addition = Number(data.split("\n")[0]) + Number(data.split("\n")[1]);
+const subtraction = Number(data.split("\n")[0]) - Number(data.split("\n")[1]);
+const multiplication = Number(data.split("\n")[0]) * Number(data.split("\n")[1]);
+const division = Number(data.split("\n")[0]) / Number(data.split("\n")[1]);
+const reminder = Number(data.split("\n")[0]) % Number(data.split("\n")[1]);
 
-console.log(addition);
+console.log("Addition:", addition);
+console.log("Subtraction:", subtraction);
+console.log("Multiplication:", multiplication);
+console.log("Division:", +division.toFixed(4)); // convert to float number
+console.log("Reminder:", reminder);
