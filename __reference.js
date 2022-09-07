@@ -1,3 +1,3 @@
 /**
- * Push problem try: git push -f origin master
+ * Push problem try: git push -f origin YOUR_BRANCH_NAME
  */
